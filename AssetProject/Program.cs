@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace AssetProject
+namespace EFAssets
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hey Guys!");
+            var app = new App();
+            app.Run();
+
         }
     }
 }
