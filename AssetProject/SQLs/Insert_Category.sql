@@ -95,16 +95,3 @@ VALUES
 (4,3,'iPhone 12 PRO 512 GB','2019-03-01 00:00:00','2021-03-01 00:00:00','2020-12-01 00:00:00',1395,1),
 (4,3,'iPhone 12 PRO 512 GB','2019-03-01 00:00:00','2021-03-01 00:00:00','2020-12-01 00:00:00',1395,1)
 
-// UPDATES for ID-referenses that went wrong due to previous data
-UPDATE [dbo].[Assets]
-SET CategoryId = 1
-WHERE CategoryId = 1;
-
-UPDATE [dbo].[Assets]
-SET OfficeId = 6
-WHERE OfficeId = 3;
-
-UPDATE [dbo].[Offices]
-SET CurrencyID = 1
-WHERE CurrencyID = 1;
-

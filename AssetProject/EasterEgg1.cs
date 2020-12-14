@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace EFAssets
 {
@@ -7,7 +9,7 @@ namespace EFAssets
         public void ShowEasterEgg()
         {
             Console.WriteLine("");
-            Console.WriteLine("");
+            Console.WriteLine("  Carl, Caroline, Essa, Mary & Mirza wish a ");
             Console.WriteLine("     MERRY CHRISTMAS TO ALL OF YOU");
             Console.WriteLine("           & HAPPY CODING!");
             Console.WriteLine("");
